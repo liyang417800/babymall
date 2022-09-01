@@ -1,0 +1,11 @@
+spring:
+  datasource:
+#    hikari:
+#      jdbc-url: jdbc:mysql://localhost:3306/babymall??useUnicode=true&useSSL=false&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useLocalSessionState=true
+#      username: root
+#      password: root
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3306/babymall?useUnicode=true&useSSL=false&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useLocalSessionState=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
